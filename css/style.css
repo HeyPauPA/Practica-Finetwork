@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+*{
+    box-sizing: border-box;  /*te deja el tamaño de las cajas definido*/
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    /*eliminar borde pagina web*/
+}
+
+.box {
+
+    /* background-color: blue;*/
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+
+    /*Para poner image de fondo*/
+    background-image: url(../images/chica.jpg);
+    background-size: cover;
+}
+
+/*---- CAJA DE LA IZQUIERDA ---- */
+.left {
+    width: 55%;
+    color: white;
+
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 10%;
+}
+
+.left h1 {
+    font-size: 45px;
+    padding-top: 10%;
+}
+
+.left p {
+    font-size: 15px;
+    padding-top: 3%;
+}
+
+/*---- CAJA DE LA DERECHA ---- */
+.right {
+    background-color: white;
+    width: 45%;
+    padding-left: 3%;
+}
+
+.right h1 {
+    font-size: 35px;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+.right p {
+    font-size: 14px;
+}
+.right label {
+    font-size: 12px;  
+}
+.right input{
+    font-size: 12px;  
+}
+.row {
+    display: flex;
+}
+
+.row a {
+    background-color: blanchedalmond;
+    padding-right: 10%;
+    color: rgb(105, 60, 255);
+    text-decoration: none;
+}
+.tablesize{
+    width: 350px;
+    height: 30px;
+}
+
+/*iconos fontawesome en google
+!fa para los iocnos en html en link
+fa nombre del icono
+para ampliar fa-_x */
+
