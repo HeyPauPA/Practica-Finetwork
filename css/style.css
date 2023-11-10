@@ -26,6 +26,7 @@ body {
     background-size: cover;
 }
 
+
 /*---- CAJA DE LA IZQUIERDA ---- */
 .left {
     width: 55%;
@@ -35,12 +36,10 @@ body {
     padding-top: 2%;
     padding-right: 10%;
 }
-
 .left h1 {
     font-size: 45px;
     padding-top: 10%;
 }
-
 .left p {
     font-size: 15px;
     padding-top: 3%;
@@ -52,38 +51,64 @@ body {
     width: 45%;
     padding-left: 3%;
 }
-
+/*--- ELEMENTOS DENTRO DE LA CAJA DE LA DERECHA ---*/
 .right h1 {
     font-size: 35px;
     padding-right: 10%;
     padding-top: 3%;
 }
-.right p {
-    font-size: 14px;
-}
-.right label {
-    font-size: 12px;  
+.right p{
+    padding-right: 24%;
+    padding-bottom: 3%;
 }
 .right input{
     font-size: 12px;  
 }
+.right a{
+    text-decoration: none;
+}
+/*-------------------------------------------------*/
+
+/*--- TAMAÑOS DE LETRA ---*/
+.letra-grande {
+    font-size: 14px;
+}
+.letra-pequeña {
+    font-size: 12px;
+}
+.letra-muy-pequeña {
+    font-size: 10px;
+}
+/*----------------------*/
+
 .row {
     display: flex;
 }
-
 .row a {
-    background-color: blanchedalmond;
+    /*Posicion*/
+    padding-top: 7%;
     padding-right: 10%;
+    /*Letras*/
     color: rgb(105, 60, 255);
+    font-size: 15px;
     text-decoration: none;
 }
+/*Tamaño de la tabla a completar*/
 .tablesize{
     width: 350px;
-    height: 30px;
+    height: 37px;
+}
+
+.button-edit{
+    background-color: rgb(105, 60, 255);
+    color: white;
+    border-color:  rgb(105, 60, 255) ;
+    width: 200px;
+    height: 50px;
 }
 
 /*iconos fontawesome en google
-!fa para los iocnos en html en link
+!fa para los Iconos en html en link
 fa nombre del icono
 para ampliar fa-_x */
 
